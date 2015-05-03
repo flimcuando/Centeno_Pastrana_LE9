@@ -1,0 +1,440 @@
+﻿ @charset "utf-8";
+/******** helpCenter CSS Document star ********/
+#helpcenter ul,li{ margin:0px; padding:0; list-style:none;}
+#helpcenter img{ border:0; vertical-align:top;}
+#helpcenter a{ color:#484848; text-decoration:none;}
+#helpcenter a:hover{ color:#ff5a00}
+#helpcenter .left{float:left}
+#helpcenter .right{float:right;}
+#helpcenter .clear{ clear:both}
+#helpcenter .mid{ width:972px; margin:0 auto}
+/******** helpCenter CSS left**/
+#helpcenter .help_left{ float:left; width:169px; padding:0 10px 0 10px; background:url(/style/image/pic/help-leftB.jpg) repeat-x ; border:1px solid #cacaca}
+#helpcenter .help_left h3{ line-height:30px;font-family: Arial, Helvetica;font-size: 18px; font-weight: bold;}
+#helpcenter .help_left .help_menu span{font-family: Arial, Helvetica;font-size:13px; color:#555; margin-bottom:5px; display:block;}
+#helpcenter .help_left .help_menu span a{ line-height:18px;color:#333}
+#helpcenter .help_left .help_menu ul li{background: url(/style/image/pic/huise.png) no-repeat 0 6px;padding:0 0 0 6px;font-size:12px;line-height:25px;}
+#helpcenter .help_left .help_menu ul li a{color:#484848;line-height:16px;}
+#helpcenter .help_left .help_menu ul li a:hover{color:#ff5a00}
+#helpcenter .help_left .help_menu .collapse_btn{vertical-align:middle; margin-right:5px;cursor: pointer;}
+#helpcenter .help_left .help_menu ul{display:none;}
+/******** helpCenter CSS right**/
+#helpcenter .help_right{ float:right; width:771px}
+#helpcenter .help_right .help_ti{ margin-bottom:10px}
+#helpcenter .help_ti span a{color:#ff5a00}
+#helpcenter .help_ti .help_title{ text-align:center; line-height:30px;font-family: Arial, Helvetica;font-size:20px; font-weight: bold;}
+#helpcenter .help_ti span{ line-height:18px;font-family: Arial, Helvetica;font-size:13px;}
+#helpcenter .help_right .help_Problem{}
+#helpcenter .help_Problem_Block{ width:378px; border:1px solid #686868; float:left; margin-bottom:15px}
+#helpcenter .one{ float:right}
+#helpcenter h4.help_title{ display:block;line-height:30px;font-family: Arial, Helvetica;font-size:16px; font-weight:bold; text-indent:12px; padding-bottom:10px}
+#helpcenter .help_Problem_Block ul li{ padding:0 0 0 20px;font-size:12px; background: url(/style/image/pic/sanjiao.png) no-repeat 10px 6px; line-height:20px}
+#helpcenter .help_Problem_Block ul li a{ font-family: Arial, Helvetica;}
+#helpcenter .help_Problem_Block span{ display:block; margin:15px 10px;font-family: Arial, Helvetica;text-align:right}
+#helpcenter .help_more ul li{ padding:0 0 0 20px;font-size:12px; background: url(/style/image/pic/sanjiao.png) no-repeat 10px 6px; line-height:20px}
+#helpcenter .help_more ul li a{ font-family: Arial, Helvetica;}
+#helpcenter .help_more span{ display:block; margin:15px 10px;font-family: Arial, Helvetica;}
+/******** helpCenter CSS detail**/
+#helpcenter .help_ti .detail_title{ line-height:30px;font-family: Arial, Helvetica;font-size:20px; font-weight: bold;}
+#helpcenter .detail span a{color:#ff5a00}
+#helpcenter .help_ti span p{font-family: Arial, Helvetica; line-height:20px}
+#helpcenter .help_right .detail{}
+#helpcenter .detail table{ border-collapse:collapse; border:1px solid #666666;border-spacing:0; margin-bottom:10px}
+#helpcenter .detail td{ text-align:center}
+#helpcenter .detail td,th{ border:1px solid #666666; line-height:20px; padding:5px 0 5px 5px}
+#helpcenter .detail .detail_font a{ color:#ff5a00}
+#helpcenter .detail .detail_font p{font-family: Arial, Helvetica; line-height:20px}
+#helpcenter .detail span p{font-family: Arial, Helvetica; line-height:20px}
+#helpcenter .help_right .detail_font p{font-family: Arial, Helvetica; line-height:20px}
+#helpcenter .detail .detail_font h4{font-family: Arial, Helvetica; line-height:20px}
+#helpcenter .detail span{ margin:10px 0 10px 0; display:block}
+#helpcenter .detail h2{ margin:10px 0 10px 0;display:block;font-family: Arial, Helvetica; font-weight:bold; font-size:14px;}
+#helpcenter .detail ul{ width:180px; background:#7f7b72}
+#helpcenter .detail li{ line-height:20px; height:20px;}
+#helpcenter .detail ul li a{font-family: Arial, Helvetica; font-size:14px; display:block; text-indent:30px; background:url(/style/image/pic/pagebg.png) no-repeat 5px -40px; color:#dbccbd;}
+#helpcenter .detail ul li a:hover{ text-decoration:underline}
+#helpcenter .detail ul li a.use1{ background-position:5px -106px}
+#helpcenter .detail ul li a.use2{ background-position:5px -128px}
+#helpcenter .detail ul li a.use3{ background-position:5px 4px}
+#helpcenter .detail ul li a.use4{ background-position:5px -18px}
+#helpcenter .detail ul li a.use5{ background-position:5px -151px}
+#helpcenter .detail ul li a.use6{ background-position:5px -84px}
+#helpcenter .detail ul li a.use7{ background-position:5px -173px}
+#helpcenter .detail ul li a.use8{ background-position:5px -62px}
+#helpcenter .detail .centent{ width:771px; margin:10px auto; text-align:center}
+/******** helpCenter CSS Document END ********/
+/******** bottom css star *******/
+/******** bottom css star *******/
+#bottom{ width:972px; margin:20px auto 0 auto;border-top:1px solid #474747;clear:both}
+#bottom img{ border:0; vertical-align:top;}
+#bottom ul,li{ margin:0px; padding:0; list-style:none;}
+#bottom p,h1,h2,h3,dl,dd,dt{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica;}
+#bottom h3{ font-weight:normal; font-size:12px}
+
+#bottom .enjoy{ font-size:38px;color:#bottom;!important; padding-bottom:30px; text-indent:10px}
+#bottom .hottest{ font-size:24px;font-family: 'Helvetica Neue',; font-weight:bold; color:#969696;text-indent:10px}
+#bottom .big{font-family: Arial, Helvetica; font-size:12px; text-indent:10px; color:#666666}
+#bottom .big a{ text-decoration:none; color:#0069ff}
+#bottom .pic{ padding-left:6px}
+#bottom .pic dl{ width:320px; float:left}
+#bottom .pic dl dt{ float:left; width:158px;}
+#bottom .pic dl dd{ float:left; width:160px; line-height:20px; font-size:11px}
+#bottom .pic dl dd a:hover{ color:#cb4634;}
+#bottom .shang{ margin-top:30px; margin-bottom:20px; height:156px}
+#bottom .xia{ margin-bottom:30px; clear:both; height:156px}
+#bottom .jion{ height:64px; border-bottom:2px solid #e0e0e0 ;border-top:2px solid #e0e0e0}
+#bottom .jion .txt{ color:#666666; font-size:16px; line-height:64px; float:left; text-indent:20px}
+#bottom .jion .tubiao{ float:left; padding-top:15px; width:47%;}
+#bottom .tubiao img{ margin-left:18px; float:left}
+#bottom .HoneyBuy dl{ margin-top:20px; float:left; margin-left:90px; display:inline}
+#bottom .HoneyBuy dl dt{ font-weight:bold; font-size:12px; margin-bottom:5px}
+#bottom .HoneyBuy dl dd{ font-size:12px; color:#666666; line-height:18px;font-family: 'Helvetica Neue',;}
+#bottom .HoneyBuy dl dd a{font-size:12px;line-height:18px;font-family: 'Helvetica Neue',;}
+#bottom .pay{ margin-top:20px; border-top:1px solid #222; clear:both}
+#bottom .pay .pal{ height:90px;}
+#bottom .pay ._p-link{float:float: left; margin:10px 2px 0 0px;}
+#bottom .pay ._p-link a{overflow: hidden;}
+#bottom .pay ._p-link ._p-link-f1{background: url("/style/image/paylogo.png") no-repeat scroll 0px
+ 0px transparent;width:72px;height:36px;display:inline-block;margin-right:16px; }
+#bottom .pay ._p-link ._p-link-f2{background: url("/style/image/paylogo.png") no-repeat scroll -79px
+ 0px transparent;width:72px;height:36px;display:inline-block;margin-right:16px; }
+#bottom .pay ._p-link ._p-link-f3{background: url("/style/image/paylogo.png") no-repeat scroll -158px
+ 0px transparent;width:72px;height:36px;display:inline-block;margin-right:16px; }
+#bottom .pay ._p-link ._p-link-f4{background: url("/style/image/paylogo.png") no-repeat scroll -237px
+ 0px transparent;width:72px;height:36px;display:inline-block;margin-right:16px; }
+#bottom .pay ._p-link ._p-link-f5{background: url("/style/image/paylogo.png") no-repeat scroll -316px
+ 0px transparent;width:72px;height:36px;display:inline-block;margin-right:16px; }
+#bottom .pay ._p-link ._p-link-f6{background: url("/style/image/paylogo.png") no-repeat scroll -395px
+ 0px transparent;width:72px;height:36px;display:inline-block;margin-right:16px; }
+#bottom .pay ._p-link ._p-link-f7{background: url("/style/image/paylogo.png") no-repeat scroll -474px
+ 0px transparent;width:72px;height:36px;display:inline-block;margin-right:16px; }
+#bottom .pay ._p-link ._p-link-f8{background: url("/style/image/paylogo.png") no-repeat scroll -554px
+ 0px transparent;width:90px;height:36px;display:inline-block;margin-right:16px; }
+#bottom .pay ._p-link ._p-link-f9{background: url("/style/image/paylogo.png") no-repeat scroll -651px
+ 0px transparent;width:84px;height:36px;display:inline-block;margin-right:10px; }
+#bottom .pay ._p-link ._p-link-f10{background: url("/style/image/paylogo.png") no-repeat scroll -741px
+ 0px transparent;width:115px;height:36px;display:inline-block;margin-left:20px; }
+#bottom .pay ._p-link ._p-link-f11{background: url("/style/image/paylogo.png") no-repeat scroll -4px
+ -46px transparent;width:72px;height:36px;display:inline-block;margin:10px 6px 0px;}
+#bottom .pay ._p-link ._p-link-f12{background: url("/style/image/paylogo.png") no-repeat scroll -83px
+ -46px transparent;width:122px;height:36px;display:inline-block;margin:10px 6px 0px;}
+#bottom .pay ._p-link ._p-link-f13{background: url("/style/image/paylogo.png") no-repeat scroll -212px
+ -46px transparent;width:121px;height:36px;display:inline-block;margin:10px 6px 0px;}
+#bottom .pay ._p-link ._p-link-f14{background: url("/style/image/paylogo.png") no-repeat scroll -340px
+ -46px transparent;width:80px;height:36px;display:inline-block;margin:10px 6px 0px;}
+#bottom .pay ._p-link ._p-link-f15{background: url("/style/image/paylogo.png") no-repeat scroll -429px
+ -46px transparent;width: 72px;height:36px;display:inline-block;margin:10px 6px 0px;}
+#bottom .pay ._p-link ._p-link-f16{background: url("/style/image/paylogo.png") no-repeat scroll -625px
+ -40px transparent;width:120px;height:45px;display:inline-block;}
+ 
+#bottom .pay .pal .noth{ width:125px; float:left}
+#bottom .pay .pal .zhongjian{ float:left; padding-top:30px; margin-left:5px; }
+#bottom .pay .pal .paypal{ float:left; padding-top: 30px; padding-left: 10px;}
+#bottom .pay p{ text-align:center}
+#bottom .pay p a{ text-align:center;color:#FF5A00;}
+#bottom .Copyright{ margin-top:10px; text-align:center; color:#888888}
+#bottom .Copyright a{ color:#FF5A00;}
+.HB-bottom{ background:url(/style/image/HB-bottom.jpg) repeat-x;} 
+/*****bottom css end*****/
+/*****index-left css star*****/
+#index_left{ width:189px; border:1px solid #ddd; background:#fff;}
+#index_left .left_title{ height:42px; background:url(/style/image/pic/HeadImg.png) no-repeat 0 bottom scroll; color:#a60e00; font-size:22px; text-indent:55px; line-height:43px; text-shadow:1px 1px #fff}
+#index_left img{ border:0; vertical-align:top; margin-bottom:10px;}
+#index_left ul,li{ list-style:none; margin:0; padding:0;}
+#index_left li{ line-height:21px; text-indent:12px; background:url("http://www.honeybuy.com/style/image/pic/sanjiao.png") no-repeat 3px 8px; scroll}
+#index_left li:hover{background:url("http://www.honeybuy.com/style/image/pic/sanjiao-x.png") no-repeat 3px 8px scroll;}
+#index_left li a{ color:#333; text-decoration:none; font-size:13px;}
+#index_left li:hover div{ display:block}
+#index_left .none4,.none5{ display:none}
+#index_left .digitalBox{
+	background-color:black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: Red;
+	width: 34px;
+	height:30px;
+	 line-height:30px;
+	display: inline-block;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.75);
+	font-size: 18px;
+	vertical-align: middle;
+}
+#index_left #CountMsg {
+	font-size: 20px;
+	font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+}
+/*****index-left css end*****/
+
+
+/*****cuxiao css star*****/
+#Promotion-2 html,body,p,ul,li,h2,h3,h4,dl,dd,dt{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica;}
+#Promotion-2 ul,li{ margin:0px; padding:0; list-style:none;}
+#Promotion-2 img{ border:0; vertical-align:top;}
+#Promotion-2 .left{float:left}
+#Promotion-2 .right{float:right;}
+#Promotion-2 .clear{ clear:both}
+#Promotion-2{ width:972px; margin:0 auto}
+#Promotion-2 .dingju{ width:972px; margin:0 auto}
+/***wedding***/
+#Promotion-2 img{border：none; margin:0; padding:0;}
+#Promotion-2 .wedding{ width:952px; border:10px solid #ffbcd3; position:relative;}
+#Promotion-2 .wedding .title{ position:absolute;top:-10px; text-align:center; width:952px; height:46px; background: url(/style/image/pic/title_010.png) no-repeat center}
+#Promotion-2 .wedding .title h2{height:38px; font-size:18px; color:#ec1c63; text-indent:18px; line-height:38px;}
+#Promotion-2 .wedding .center{ height:660px;background:#f3f3f3}
+#Promotion-2 .center dl{ width:210px;height:302px; background:#e4e4e4; float:left; margin:18px 14px 0 14px; display:inline;}
+#Promotion-2 .center dl dt{ width:200px; height:261px; margin:5px; background:#fff; position:relative}
+#Promotion-2 .center dl dt .dazhe{ position:absolute; width:65px;height:65px; top:-12px; right:-11px; background: url("http://www.honeybuy.com/css/sales_bg.png") no-repeat scroll 0 0 transparent;}
+#Promotion-2 .center dl dt .dazhe .text{color: white;font-size: 12px;position:relative;top:7px;right:-20px;}
+#Promotion-2 .center dl dt .dazhe .percentage{color: white;font-size: 20px;font-weight: bold;position: relative; top:26px; right:12px}
+#Promotion-2 .center dl dt .dinw{ position:absolute; bottom:0; width:190px; left:0; height:59px; background:#000;color:#fff; padding:5px 5px 0 5px;filter:alpha(opacity=50);
+-moz-opacity:0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5;}
+#Promotion-2 .center dl dd{width:200px;}
+#Promotion-2 .center dl dd del{width:100px;display:block; float:left; text-align:center; font-size:13px; font-family: Arial, Helvetica;}
+#Promotion-2 .center dl dd span{width:100px;display:block;float:left; text-align:center;color:#cb4200;font-size:13px}
+/***Special***/
+#Promotion-2 .Special{ margin:10px 0 10px 0;background:#f3f3f3;border:10px solid #ffbcd3; padding-bottom:10px;}
+#Promotion-2 .Special_f dl{ width:140px; float:left; margin:15px 0 0 15px; display:inline;}
+#Promotion-2 .Special_f dl dt{ width:140px;height:204px;}
+#Promotion-2 .Special_f dl dd{ width:140px;}
+#Promotion-2 .Special_f dl dd del{ width:140px; display:block; text-align:center; margin-bottom:3px}
+#Promotion-2 .Special_f dl dd span{ width:140px; display:block; text-align:center; color:#c84100}
+/***none***/
+#Promotion .last_none{ margin:10px 0 10px 0; height:668px; background:#eeecec;border:10px solid #efb835; padding-top:10px}
+#Promotion .last_none .one{ height:221px; margin-bottom:10px}
+#Promotion .last_none .one .one_f1{ width:254px; height:221px; float:left; margin-left:10px; background:#fff; position:relative}
+#Promotion .last_none .one .pos{ position:absolute; bottom:0; left:0; width:254px; height:30px}
+#Promotion .one .pos del{ line-height:30px; width:127px; text-align:center; display:block;float:left}
+#Promotion .one .pos span{ line-height:30px; width:127px; text-align:center; display:block;float:left;color:#c84100}
+#Promotion .last_none .one_f2{ width:402px; height:221px; float:left;margin-left:10px;background:#fff;}
+#Promotion .last_none .two{ height:161px;}
+#Promotion .last_none .two .one_f3{height:161px;background:#fff;width:150px; float:left; margin-left:7px}
+#Promotion .two  del{ line-height:20px; width:150px; text-align:center; display:block;color:#333}
+#Promotion .two span{ line-height:20px; width:150px; text-align:center; display:block;color:#c84100}
+/*****cuxiao css end*****/
+
+
+
+/*****Company Info css star*****/
+#AboutUs{width:972px;margin:0 auto}
+#AboutUs html,body,p,ul,li,h2,h3,h4{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica;}
+#AboutUs ul,li{list-style:none;}
+#AboutUs img{ border:0; vertical-align:top;}
+#AboutUs .top_bottom{ position:fixed; right:200px;bottom:350px;width:30px;clear:both}
+#AboutUs .top_bottom a{ margin-top:10px; display:block; text-align:center; text-decoration:none;color:#666}
+#AboutUs .left{ width:171px; padding:0 10px; background:#EFEFEF; float:left}
+#AboutUs .left h2{ font-size:18px;color:#333;line-height:28px;}
+#AboutUs .left li{ text-indent:12px; background:url(/style/image/pic/sanjiao.png) no-repeat 0 11px; line-height:28px}
+#AboutUs li a{color:#333; text-decoration:none; font-size:14px;}
+#AboutUs li a:hover{color:#ff7200;}
+#AboutUs .right { width:771px; float:right}
+#AboutUs .right h2{ font-size:18px; line-height:28px;color:#333}
+#AboutUs .right a{ text-decoration:none;color:#ff7200}
+#AboutUs .right .norton{width:771px;height:90px;}
+#AboutUs .center p{clear:both;line-height:20px;}
+#AboutUs .center p span{ font-size:18px;}
+#AboutUs .center h4{margin:13px 0; font-size:14px}
+#AboutUs .center h3{ margin-top:8px}
+#AboutUs .center b{ margin-top:10px; display:block}
+#AboutUs .center .text-z{ text-indent:15px}
+#AboutUs .center .p-line{border-bottom:1px solid #000;padding-bottom:15px}
+#AboutUs .center .img-center{ text-align:center}
+#AboutUs .center span{line-height: 20px; font-family: arial; font-size: 14px;}
+#AboutUs .center font{ line-height: 20px; font-family: arial; font-size: 14px;}
+#AboutUs .center b.imgb img{ margin-left:40px;display:inline}
+#AboutUs .center .txt{ padding-bottom:20px;border-bottom:solid 1px #000; margin-bottom:20px}
+#AboutUs .center p.txt-2{color:#666; font-family:Arial; font-size:14px; line-height:20px; text-align:center}
+#AboutUs .center p.align{ text-align:right;padding-right:30px; margin-left:5px}
+#AboutUs .center .txt-tu{ float:right;text-align:right; padding-right:30px; padding-left:5px; margin-top:8px}
+#AboutUs .center .txt-tu2{ float:right; width:10%; text-align:right; padding-top:2px;margin-top:8px}
+/*****Company Info css end*****/
+/******** prom css star *******/
+#PromDresses html,body,p,ul,li,h2,h3,h4,dl,dd,dt{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica;}
+#PromDresses ul,li{ margin:0px; padding:0; list-style:none;}
+#PromDresses img{ border:0; vertical-align:top;}
+#PromDresses .left{float:left}
+#PromDresses .right{float:right;}
+#PromDresses .clear{ clear:both}
+#PromDresses{ width:972px; margin:0 auto}
+#PromDresses .dingju{ width:972px; margin:0 auto}
+#PromDresses .prom-title{ height:972px; height:49px; background:url(/style/image/pic/promtitle.jpg) no-repeat}
+#PromDresses .prom-title h2{ font-size:18px; color:#c45326; padding:12px;}
+#PromDresses .prom-product{height:720px;border:10px solid #ffd6c6; margin-bottom:10px;}
+#PromDresses .prom-product dl{ float:left; margin-left:12px;}
+#PromDresses .prom-product dl dt{ width:222px; margin-bottom:5px}
+#PromDresses .prom-product dl dd{ text-align:center; width:222px;}
+#PromDresses .prom-product dl dd del{ text-align:center; display:block; line-height:20px}
+#PromDresses .prom-product dl dd span{ text-align:center; display:block;color:#ba4101;line-height:20px; margin-bottom:10px}
+#PromDresses .prom-product2{height:620px;border:10px solid #ffd6c6; margin-bottom:10px;}
+#PromDresses .prom-product2 .prom-left{ float:left}
+#PromDresses .prom-left dl{ float:left; margin-left:10px;}
+#PromDresses .prom-left dl dt{ width:200px; margin-bottom:5px}
+#PromDresses .prom-left dl dd{ text-align:center; width:200px;}
+#PromDresses .prom-left dl dd del{ text-align:center; display:block; line-height:20px}
+#PromDresses .prom-left dl dd span{ text-align:center; display:block;color:#ba4101;line-height:20px; margin-bottom:10px}
+#PromDresses .prom-product2 .prom-right{ float:right}
+#PromDresses .prom-right dl{ float:left; margin-right:10px;}
+#PromDresses .prom-right dl dt{ width:200px; margin-bottom:5px}
+#PromDresses .prom-right dl dd{ text-align:center; width:200px;}
+#PromDresses .prom-right dl dd del{ text-align:center; display:block; line-height:20px}
+#PromDresses .prom-right dl dd span{ text-align:center; display:block;color:#ba4101;line-height:20px; margin-bottom:10px}
+/******** prom css end *******/
+/******** suits css star *******/
+#Suits-zy html,body,p,ul,li,h2,h3,h4,dl,dd,dt{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica;}
+#Suits-zy ul,li{ margin:0px; padding:0; list-style:none;}
+#Suits-zy img{ border:0; vertical-align:top;}
+#Suits-zy .clear{ clear:both}
+#Suits-zy{ width:972px; margin:0 auto; background:url(/style/image/pic/suitsbac.jpg) repeat-y}
+#Suits-zy .suits-pro{ padding:0 10px}
+#Suits-zy .wenzhi{ background:#000; position:absolute;left:0;bottom:0; width:100%;height:34px;}
+#Suits-zy .wenzhi del{ display:block; float:left; width:50%; line-height:32px; text-align:center;color:#fff}
+#Suits-zy .wenzhi span{display:block; float:left; width:50%; line-height:32px; text-align:center;color:#ff0000}
+#Suits-zy .suits-pro .suits-t1{ float:left; width:419px;}
+#Suits-zy .suits-t1 .suitser{ margin-top:10px; width:419px;}
+#Suits-zy .suits-t1 .onewei{ position:relative; margin-bottom:10px;}
+#Suits-zy .suits-t1 .q1{ float:left}
+#Suits-zy .suits-t1 .q2{ float:right}
+#Suits-zy .suits-pro .suits-t2{ float:right;width:524px;}
+#Suits-zy .suits-t2 .q3{ float:left; position:relative}
+#Suits-zy .suits-t2 .q4{ float:right; position:relative; margin-bottom:10px;}
+#Suits-zy .xia{ clear:both;}
+#Suits-zy .xia ul li{ display:block; float:left; position:relative}
+#Suits-zy .xia ul li.jianju{ margin-left:10px;}
+#Suits-zy .suits-pro .suits-t3{ clear:both;}
+#Suits-zy .adbanner{ padding:10px;}
+#Suits-zy .suitproduct{background:#dcdcdc; width:952px; margin:0 auto 0 auto; }
+#Suits-zy .suitproduct dl{ width:225px; margin:10px 0 0 10px; float:left}
+#Suits-zy .suitproduct dl dt{ width:225px; height:310px; background:#999}
+#Suits-zy .suitproduct dl dd del{ display:block; line-height:20px; text-align:center}
+#Suits-zy .suitproduct dl dd p{color:#ff0000;display:block; line-height:20px; text-align:center}
+/******** suits css end *******/
+/******** Apparel css star *******/
+#Apparel html,body,p,ul,li,h2,h3,h4,dl,dd,dt{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica;}
+#Apparel ul,li{ margin:0px; padding:0; list-style:none;}
+#Apparel img{ border:0; vertical-align:top;}
+#Apparel .left{float:left}
+#Apparel .right{float:right;}
+#Apparel .clear{ clear:both}
+#Apparel .middim{ width:972px; margin:0 auto}
+#Apparel .Acenten_title{ height:29px; background:url(/style/image/pic/titleback.jpg) no-repeat;}
+#Apparel .Acenten_title h2{ float:left; color:#feebf4; font-size:24px; font-family:Times New Roman; text-indent:15px}
+#Apparel .Acenten_title span{ float:right; color:#feebf4}
+#Apparel .Acenten_title span a{ text-decoration:none; color:#feebf4; display:block; margin:5px; height:13px}
+#Apparel .Acenten_pro{ margin-top:10px}
+#Apparel .pro_left{ float:left; width:235px;}
+#Apparel .pro_left .datu{ position:relative; height:353px; width:235px; margin-bottom:10px; background:#cfd0d0}
+#Apparel .pro_left .dingwei{ position:absolute;left:0; bottom:0; width:235px; height:30px}
+#Apparel .pro_left .dingwei del{ width:50%; display:block; text-align:center; line-height:30px;float:left}
+#Apparel .pro_left .dingwei span{ width:50%; display:block; text-align:center; line-height:30px; color:#c30060; float:left}
+#Apparel .pro_right{ float:right; width:727px}
+#Apparel .pro_right .hei{ height:303px; clear:both}
+#Apparel .pro_right dl{ height:42px; width:174px; float:left; margin-left:10px; display:inline}
+#Apparel .pro_right dl dd del{ width:50%; display:block; text-align:center; float:left; line-height:40px}
+#Apparel .pro_right dl dd span{ width:50%; display:block; text-align:center;  color:#c30060; float:left; line-height:40px;}
+#Apparel .pro_bot dl{ width:235px; float:left; margin-left:10px; display:inline}
+#Apparel .pro_bot dl dd del{ width:50%; display:block; text-align:center; float:left; line-height:20px}
+#Apparel .pro_bot dl dd span{ width:50%; display:block; text-align:center;  color:#c30060; float:left; line-height:20px;}
+/******** Apparel css end *******/
+/******** promotion_two css star *******/
+#Promotion_two html,body,p,ul,li,h2,h3,h4,dl,dd,dt{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica;}
+#Promotion_two ul,li{ margin:0px; padding:0; list-style:none;}
+#Promotion_two img{ border:0; vertical-align:top;}
+#Promotion_two a{ color:#000; text-decoration:none}
+#Promotion_two .left{float:left}
+#Promotion_two .right{float:right;}
+#Promotion_two .clear{ clear:both}
+#Promotion_two{ width:100%}
+#Promotion_two .Overall{ width:972px; margin:0 auto;}
+#Promotion_two .banner{ height:500px;}
+#Promotion_two .positio{width:972px;}
+#Promotion_two .title{ height:33px; background:url(/style/image/pic/title-bj.png) no-repeat}
+#Promotion_two .title2{ height:33px; background:url(/style/image/pic/title-bj3.png) no-repeat}
+#Promotion_two .title3{ height:33px; background:url(/style/image/pic/title-bj2.png) no-repeat}
+#Promotion_two .title h2{ color:#fff; font-size:20px; text-indent:10px; line-height:33px; float:left}
+#Promotion_two .title span{ color:#222; font-size:12px; line-height:33px; float:right; margin-right:20px;}
+#Promotion_two .center{ margin-top:6px;}
+#Promotion_two .center dl{ width:186px; float:left; margin-left:6px; display:inline}
+#Promotion_two .center dl dt{ width:186px; height:258px;}
+#Promotion_two .center dl dd{ height:33px; margin-top:5px}
+#Promotion_two .center dl dd span{ float:left; display:block; font-size:18px; color:#cf1231; width:60%; text-align:center;}
+#Promotion_two .center dl dd del{ float:left; display:block}
+#Promotion .center-c{ margin-top:6px;}
+#Promotion_two .center-c dl{ width:235px; float:left; margin-left:7px; display:inline}
+#Promotion_two .center-c dl dt{ width:235px; height:326px;}
+#Promotion_two .center-c dl dd span{ float:left; display:block; font-size:18px; color:#cf1231; width:50%; text-align:center;}
+#Promotion_two .center-c dl dd{ height:33px; margin-top:5px}
+#Promotion_two .center-c dl dd span{ float:left; display:block; font-size:18px; color:#cf1231; width:50%; text-align:center;}
+#Promotion_two .center-c dl dd del{ float:left; display:block}
+/******** promotion_two css end *******/
+/******** suits-size css star *******/
+#suits_size { width:970px; margin:0 auto}
+#suits_size p{text-align:justify; margin-bottom:10px; font-size:12px;}
+#suits_size .sizechart-tb { margin:10px 0;}
+#suits_size .sizechart_title { font-size: 30px; font-weight: bold; text-align:center; color: #000000; letter-spacing: -1px; margin: 15px 0px 15px 0px; } 
+#suits_size .sizechart_title2 { font-size: 20px;  font-weight: bold; text-align: left; color: #000000; letter-spacing: -1px; margin-bottom: 10px; }
+#suits_size .sizechart_text { font-size: 16px; color: #000000; }
+#suits_size .sizetd-head { background: #bfbfbf; border-bottom: 2px solid white; color: white; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size:12px; height: 20px; text-align: center; }
+#suits_size .sizetd { background: #e4e4e4; border-bottom: 2px solid white; color: black; font-family: Arial, Helvetica, sans-serif; height: 20px; text-align: center; font-size: 12px; }
+#suits_size .sizetd-a { background: #ffffff; border-bottom: 2px solid white; color: black; font-family: Arial, Helvetica, sans-serif; height: 20px; text-align: center; font-size: 12px; }
+#suits_size .sizetd-title {background: #a1a1a1; border-bottom: 2px solid white; color: white; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; height: 30px; text-align: left; padding-left: 10px; border-bottom: 2px solid #ffffff; }
+/******** suits-size css end *******/
+/******** shengdan css star *******/
+#background-10 html,body,p,ul,li,h2,h3,h4,dl,dd,dt{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica;}
+#background-10 ul,li{ margin:0px; padding:0; list-style:none;}
+#background-10 img{ border:0; vertical-align:top;}
+#background-10 .width972{ width:972px; margin:-15px auto 0 auto}
+#background-10 .title001{ background:#af0c00; height:34px; width:972px; margin-bottom:1px}
+#background-10 .title001 h2{ font-size:26px; color:#fff; float:left; text-indent:10px; line-height:35px}
+#background-10 .title001 span{ color:#fff; float:right; text-indent:10px; line-height:35px; margin-right:10px}
+#background-10 .title001 a{ color:#fff; text-decoration:none}
+#background-10 .centent001{ width:962px; height:432px; background:#af0c00; padding:5px;}
+.centent001 .show0001{width:956px; background:#fff; height:426px; padding:3px}
+.centent001 .shoes002 li{ width:181px; height:191px; float:left; margin-left:3px; position:relative; margin-top:20px; display:inline}
+.centent001 .shoes002 li .position001{ width:102px; height:24px; position:absolute; right:0; bottom:-12px; background:#f91f72; text-align:center; line-height:24px; color:#fff; font-size:16px;}
+.centent001 .shoes003 li{ width:181px; height:191px; float:left; margin-left:2px; position:relative; margin-top:20px; display:inline}
+/******** shengdan css end *******/
+/******** dress css end *******/
+#dress002 ul,li,dl,dt,dd,p,span{ font-size:12px; margin:0; padding:0;}
+#dress002 ul,li{list-style:none}
+#dress002 img{border:0;}
+#dress002{ width:972px; margin:0 auto}
+/******top******/
+#dress002 .ad_Down430{ width:972px; height:60px; position:relative; background:url(/style/image/pic/hengfu.jpg) no-repeat scroll;}
+.digitalBox{
+	background-color:#000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: white;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.75);
+	font-size: 30px;
+	vertical-align: middle;
+}
+#CountMsg { font-size: 12px; color:#000; font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;}
+#dress002 .wrapper { position:absolute; top:10px; right:0; width:500px; height:60px; font-size:30px; text-align:right; padding-right:12px;}
+/******top******/
+#dress002 .background_line{ clear:both; height:10px; font-size:0; background:url(/style/image/pic/dress_003.jpg) repeat-x scroll;}
+#dress002 ul{ margin-top:15px;}
+#dress002 ul li{ display:block; width:181px; border:1px solid #777; float:left; position:relative;}
+#dress002 ul li.margin15{ margin-left:14px;}
+#dress002 ul li p{ font-size:11px; font-family:Tahoma, Geneva, sans-serif; text-align:center}
+#dress002 ul li .Money del{ width:50%; display:block; float:left; text-align:center; margin-top:3px;}
+#dress002 ul li .Money span{ width:50%; display:block; float:left; text-align:center; margin-top:3px; color:#ac2800}
+#dress002 ul li .save_position{ width:63px; height:63px; position:absolute; top:0; right:0; background:url(http://www.honeybuy.com/css/sales_bg.png) no-repeat scroll; color:#fff}
+#dress002 .save_position p{ margin-top:7px; font-size:16px}
+#dress002 .save_position span{ font-size:24px; text-align:center; display:block; margin-top:-2px;}
+/******three******/ 
+ #bottom #CountMsg {
+	font-size: 20px;
+	font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+}
